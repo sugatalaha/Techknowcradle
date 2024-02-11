@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button
+{
+    cursor:pointer;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    box-shadow: 5px;
+    font-family: cursive;
+}
+.box
+{
+    background-image:url('Images/scienceimg.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav
+{
+    color:orange;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color:rgb(58, 58, 116);
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 5vw;
+    font-family: cursive;
+    font-size:1.5rem;
+}
+li a
+{
+    text-decoration: none;
+    color:orange;
+}
+.eventOrganizer
+{
+    font-family: 'Cormorant', serif;
+    font-size: 17px;
+}
+.eventname
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:yellow;
+    font-size: 1.5rem;
+}
+
+footer
+{
+    height: 100px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.welcome1
+{   font-family: 'Sofia', cursive;
+    font-size: 4.5vw;
+    display: flex;
+    justify-content: flex-start;
+    color:orangered;
+}
+.welcome
+{
+    padding-left: 100px;
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    position: relative;
+    top: 14px;
+    padding-left: 22px;
+    color:rgb(58, 58, 116);
+}
+.lefttext
+{
+    padding: 55px;
+    padding-top: 76px;
+}
+p
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vw;
+    display: inline-block;
+    color:orangered;
+}
+.welcome2
+{
+    font-size: 2.6vw;
+    padding-top: 23px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(58, 58, 116);
+    padding-left: 26px;
+}
+
+.titlebox
+{
+    background-color:rgb(58, 58, 116,0.5);
+    width: 47vw;
+    padding:18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 16px;
+    border-radius: 30px;
+}
+
+.lowerbox
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 2vh;
+}
+#registerbutton
+{
+    background-color:black;
+    color:white;
+    padding: 12px;
+}
+
+.registration
+{
+    background-color:white;
+    padding: 10px;
+    border:2px solid black;
+    border-radius:4px;
+    margin:5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+form
+{
+    margin:5px;
+    font-family: cursive;
+}
+input
+{
+    margin-top:10px;
+    padding:5px;
+}
+select
+{
+    margin:10px;
+    padding:5px;
+}
+
+.submit-button
+{
+    padding:10px;
+    display: flex;
+    background-color: black;
+    color:white;
+}
+.overlay
+{
+    padding: 26px;
+    background-image: url('Images/Jadavpur-University-Calcutta.jpg');
+    opacity: 0.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Gallary
+{
+    background-color:rgb(58, 58, 116);
+    color:orangered;
+    text-align: center;
+}
+
+.imageSlider
+{
+    display: flex;
+    overflow-x:scroll;
+}
+img
+{
+    width:20vw;
+    margin:14px;
+}
+
+.sectionText
+{
+    background-color: rgba(0, 0, 0, 0.78);
+    color:white;
+    padding: 5px;
+}
+.sectionText h1
+{
+    color: yellow;
+}
+.type
+{
+    font-weight: bolder;
+}
+.footertext
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+}
+
+.dropdown
+{
+    display: none;
+}
+.lists
+{
+    display: none;
+}
